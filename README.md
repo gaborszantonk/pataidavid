@@ -9,3 +9,5 @@ Az oldalad hátterében egy általad választott kép legyen kifeszítve, rögz�
 Készíts a weboldalnak egy fejlécet, mely a képernyő 100 %-ára kiterjed. Színét, styleját te határozod meg Középen jelenjen meg a neved, címsor1 stílusban!
 # Patai Dávid
 <br>Most már jó
+# 03 09 Kérdés
+Nincs mappa, és nem látom benne a képet, Dávid. Pótold, plíz.
