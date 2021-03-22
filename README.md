@@ -1,6 +1,8 @@
 # pataidavid
-Itt lesznek majd a feladatok...
-Természetesen te is írhatsz bele
+
+# a weboldalam címe
+https://gaborszantonk.github.io/pataidavid/ 
+
 # 03 01 
 Hozz létre egy pict nevű mappát a saját gépeden, az új repo mappájában, tegyél bele egy képet, és illesztd bele az index.html kódba...
 # 03 08 feladat: Header és background építése
