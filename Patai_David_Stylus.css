@@ -1,3 +1,8 @@
 header{width:100%;color:darkgray;background-color:lightgray;}
-body{background-image: url(Pic/Follow\ the\ flow.jpg);background-repeat: no-repeat;background-attachment: fixed;background-position:center;background-size: cover;color:mediumblue;text-align: center;}
-div{width:33%;background-color: aqua;float:right}
+body{background-image: url(Pic/kutya.jpg);background-repeat: no-repeat;background-attachment: fixed;background-position:center;background-size: cover;color:mediumblue;text-align: center;}
+#elso{width: 33%;background-color: rgba(27, 78, 134);float:left;font-size: x-large;}
+#masodik{width: 33%;background-color: rgba(27, 78, 134);float:left;font-size: x-large;}
+#harmadik{width: 33%;background-color: rgb(27, 78, 134);float:left;font-size: x-large;}
+.torol{clear:both}
+.row {background-color: black;}
+h1 {color: red;}
