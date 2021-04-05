@@ -13,3 +13,7 @@ Készíts a weboldalnak egy fejlécet, mely a képernyő 100 %-ára kiterjed. Sz
 <br>Most már jó
 # 03 09 Kérdés
 Nincs mappa, és nem látom benne a képet, Dávid. Pótold, plíz.
+
+# A görögösen nevű feladatról
+Miért érzem úgy, hogy némi együttműködés árán jött létre a feladat? (Megegyezik Daniéval..)
+Csak neki is leírtam, amit neked is beillesztek a fájlba...
