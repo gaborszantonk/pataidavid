@@ -17,3 +17,5 @@ Nincs mappa, és nem látom benne a képet, Dávid. Pótold, plíz.
 # A görögösen nevű feladatról
 Miért érzem úgy, hogy némi együttműködés árán jött létre a feladat? (Megegyezik Daniéval..)
 Csak neki is leírtam, amit neked is beillesztek a fájlba...
+# Patai Dávid
+Elnézést Tanár úr hogy ennyi késéssel adtam le a feladatokat, de az internetem elég gyenge volt ma egész nap. A karaktrkeresős feladatot megtudtam a megoldás megnézése nélkül megoldani.
