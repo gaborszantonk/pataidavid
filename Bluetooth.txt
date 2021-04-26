@@ -1,0 +1,13 @@
+Bluetooth:
+Rövid hatótávolságú, adatcseréhez használt, nyílt, vezetéknélküli szabvány. Alkalmazásával számítógépek, mobiltelefonok (telefonkihangosítók) és egyéb készülékek között automatikusan létesíthetünk kis hatótávolságú rádiós kapcsolatot.
+
+Ezetéknélküli hálózatok kialakítására asztali és hordozható számítógépek között, illetve csak asztali gépek között kis területen, ha nincs szükség nagy sávszélességre
+Számítógép-perifériák csatlakoztatására nyomtatók, billentyűzetek, egerek esetében
+Fájlok és adatok átvitelére és szinkronizálására személyi digitális asszisztensek (PDA-k, mobiltelefonok és a számítógép) között
+Egyes digitális zenelejátszók, fényképezőgépek és számítógép között
+Autóskészletek és fülhallgatók csatlakoztatására mobiltelefonokhoz
+Orvosi és GPS-készülékek
+
+Az 1.2-es verzió 1 Mbps-os, a 2.0-s Bluetooth pedig 3 Mbps-os adatátviteli sebességet tesz lehetővé a világszerte szabadon elérhető 2,4 gigahertzes frekvenciasávban. Európában és az Egyesült Államokban a 2,402 GHz és 2,480 GHz közötti 79 db 1 MHz-es sávban, Japánban a 2,472 és 2,497 GHz közötti 23 db 1 MHz-es sávban működik. Az adatcsatorna ebben a sávban másodpercenként 1600-szor változik véletlenszerűen („szórt spektrumú frekvenciaugrás”). Egy hálózatban egy időben 1 „mester” eszközhöz legfeljebb 7 másik eszköz csatlakozhat. 
+
+Bekapcsolom az eszközömön a bluetooth-t, majd bekapcsolom azon az eszközön is a bluetooth-t amire csatlakoztatni akarom. Majd ha megvan az eszköz a telfonnal rácsatlakozok.
