@@ -4,117 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Patai Dávid weblapja</title>
-    <link rel="stylesheet" href="Patai_David_Stylus.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <title>Patai Dávid weblapja</title>
+    <link rel="stylesheet" href="index.css">
+    
 </head>
 <body>
-    <header><h1 class="bg-warning">Patai David</h1></header>
-<div id="elso">A reszponzív grid egy olyan design rendszer, amely a reszponzív weboldal tervezésben segít.
-
-    A weboldal grafikai tervezése során, ha a reszponzív grid-hez igazítjuk az egyes elemeket, akkor ez lehetővé teszi, hogy a weboldal hibátlanul és rugalmasan igazodjon a látogató készülékének (mobil, tablet vagy asztali gép) képernyő méretéhez.A reszponzív grid a következő elemekből áll:
-
-    Oszlopok (columns)
-    Oszlopok közötti térköz (gutters)
-    Margók (margins)
-    1. Oszlopok
-    
-    Az oszlopok a weboldal tartalmi részét osztják fel egyforma szélességű részekre. Full HD felbontásra tervezett weboldalak esetén 12 oszlopra, tablet és mobil esetén 4-6 oszlopra szoktuk felosztani a weboldal által elfoglalt területet.
-    
-    A oszlopok reszponzív viselkedése kisebb képernyőméreten könnyen leprogramozható, így ha a tervezés során az egyes tartalmi elemeket az oszlopok széléhez igazítjuk, a weboldal tableten és mobilon is hibátlanul fog megjelenni.
-    
-    Reszponzív grid felosztás
-    
-    2. Oszlopok közötti térköz (gutter)
-    
-    A gutter az oszlopok közötti térközt jelenti. Ez segít távolságot tartani az egyes tartalmi részek között.
-    
-    3. Margók (margins)
-    
-    A margók a tartalom és a képernyő széle közötti távolságot jelentik jobb és bal oldalon.</div><div id="masodik">Reszponzív weboldalnak nevezzük azokat a weblapokat, amelyek reszponzív technológiával készülnek. Vagyis a látogató eszközétől függetlenül minden felbontáson tökéletesen néznek ki és magas felhasználói élményt nyújtanak.
-
-    Manapság a webfejlesztő cégek többsége már csak reszponzív technológiát alkalmaz, de a régi weboldalak átalakítása reszponzívvá még sok évig el fogja húzni a teljes átállást.</div><div id="harmadik">Reszponzív weboldal tesztelő eszközök
-    Nem vagy biztos abban, hogy a weboldalad reszponzív technológiával készült? Az alábbi 7 eszköz segítségével pillanatok alatt ellenőrizni tudod, hogy weboldalad reszponzív –e és ha igen, akkor nem tartalmaz-e hibákat.
-    
-    Google Mobilbarát Teszt
-    Responsive Web Design Checker
-    Pixelemu
-    Am I Responsive ?
-    Responsinator
-    Website Responsive Test
-    Designmodo Responsive Test</div>
-    <div class="torol">
-
+    <!--Navigacio_eleje-->
+    <nav class="navbar navbar-expand-md bg-dark navbar-light">
+        <div class="container col-md-11">
+          <a class="navbar-brand" href="#"><img src="./Pic/en.jpg" alt="i" width="45" height="50"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Főoldal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="laptop.html">Linkgyűjteményem a laptop szerelésről</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="telefon.html">Linkgyűjteményem a telefon szerelésről</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blue.html">Linkgyűjteményem a bluetooth technológiáról</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Lehetőségek
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="laptop.html">1. lehetőség</a></li>
+                  <li><a class="dropdown-item" href="telefon.html">2. lehetőség</a></li>
+                  <li><a class="dropdown-item" href="blue.html">3. lehetőség</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Szeparátor utáni lehetőség</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--Navigacio_vege-->
+    <div class="container bg-info">
+        <div class="row">
+            <div class="d col-md-3 mt-2 mx-auto offset-1">
+              <h1>Laptopok szerelése</h1>
+              <img class="img-fluid p-3" src="./Pic/laptop.jpg" alt="i">
+              <br>
+              <p>Ezen a részen szerezhetsz egy kis ismeretet a laptopok szerelési folyamatáról. Olyanokról minthogy milyen eszközökkel állunk neki szerelni, vagy hogy mi a szerelés menete, és még sok más érdekes információt is megtudhatsz. Ezen a linken keresztül oda is tudsz menni:<a href="laptop.html" target="_blank_" class=" d-flex justify-content-center p-3">Linkgyűjteményem a laptopokról</a></p>
+            </div>
+            <div class="d col-md-3 mt-2 mx-auto offset-1">
+              <h1>Telefonok szerelése</h1>
+              <img class="img-fluid p-3" src="./Pic/telefon.webp" alt="i">
+              <br>
+              <p>Ezen a részen szerezhetsz egy kis ismeretet a telefonok szerelési folyamatáról. Azokról a dolgokról tudsz információkat kapni hogy mi a szerelés menete, vagy hogy milyen eszközöket érdemes használni mikor egy telefont szétszedünk, vagy csak képernyőt cserélünk, vagy bármit csinálunk az eszközzel. Ezen a linken keresztül meg is lesheted:<a class=" d-flex justify-content-center p-3" href="telefon.html" target="_blank_">Linkgyűjteményem a telefonokról</a></p>
+            </div>
+            <div class="d col-md-3 mt-2 mx-auto offset-1">
+              <h1>Bluetooth- technológia</h1>
+              <img class="img-fluid p-3" src="./Pic/bluetooth.jpg" alt="i">
+              <br>
+              <p>Ezen a részen szerezhetsz egy kis információt napjaink leghasználtabb és a vezetéknélküli adatátvitel egyik legjobb kivitelezéséről, a Bluetooth-ról. Ha felkeltette az érdeklődésed, ezen a linken kersztül tájékozódhatsz nyugodtan:<a href="blue.html" target="_blank_" class=" d-flex justify-content-center p-3">A bluetooth technológiáról</a></p>
+            </div>
+            <div class="mt-2 mx-auto"></div>
+        </div>
     </div>
-    <div class="container">
-<div class="row">
-    <div class="col-md-4 text-warning mt-5">
-        <p><img class="img-fluid" src="Pic/autó.jpg">A reszponzív grid egy olyan design rendszer, amely a reszponzív weboldal tervezésben segít.
-    
-            A weboldal grafikai tervezése során, ha a reszponzív grid-hez igazítjuk az egyes elemeket, akkor ez lehetővé teszi, hogy a weboldal hibátlanul és rugalmasan igazodjon a látogató készülékének (mobil, tablet vagy asztali gép) képernyő méretéhez.A reszponzív grid a következő elemekből áll:
-        
-            Oszlopok (columns)
-            Oszlopok közötti térköz (gutters)
-            Margók (margins)
-            1. Oszlopok
-            
-            Az oszlopok a weboldal tartalmi részét osztják fel egyforma szélességű részekre. Full HD felbontásra tervezett weboldalak esetén 12 oszlopra, tablet és mobil esetén 4-6 oszlopra szoktuk felosztani a weboldal által elfoglalt területet.
-            
-            A oszlopok reszponzív viselkedése kisebb képernyőméreten könnyen leprogramozható, így ha a tervezés során az egyes tartalmi elemeket az oszlopok széléhez igazítjuk, a weboldal tableten és mobilon is hibátlanul fog megjelenni.
-            
-            Reszponzív grid felosztás
-            
-            2. Oszlopok közötti térköz (gutter)
-            
-            A gutter az oszlopok közötti térközt jelenti. Ez segít távolságot tartani az egyes tartalmi részek között.</p>
-    </div>
-    <div class="col-md-4 text-warning mt-5">
-        <p><img class="img-fluid" src="Pic/kutyás kép.jpg">A reszponzív grid egy olyan design rendszer, amely a reszponzív weboldal tervezésben segít.
-    
-            A weboldal grafikai tervezése során, ha a reszponzív grid-hez igazítjuk az egyes elemeket, akkor ez lehetővé teszi, hogy a weboldal hibátlanul és rugalmasan igazodjon a látogató készülékének (mobil, tablet vagy asztali gép) képernyő méretéhez.A reszponzív grid a következő elemekből áll:
-        
-            Oszlopok (columns)
-            Oszlopok közötti térköz (gutters)
-            Margók (margins)
-            1. Oszlopok
-            
-            Az oszlopok a weboldal tartalmi részét osztják fel egyforma szélességű részekre. Full HD felbontásra tervezett weboldalak esetén 12 oszlopra, tablet és mobil esetén 4-6 oszlopra szoktuk felosztani a weboldal által elfoglalt területet.
-            
-            A oszlopok reszponzív viselkedése kisebb képernyőméreten könnyen leprogramozható, így ha a tervezés során az egyes tartalmi elemeket az oszlopok széléhez igazítjuk, a weboldal tableten és mobilon is hibátlanul fog megjelenni.
-            
-            Reszponzív grid felosztás
-            
-            2. Oszlopok közötti térköz (gutter)
-            
-            A gutter az oszlopok közötti térközt jelenti. Ez segít távolságot tartani az egyes tartalmi részek között.</p>
-    </div>
-    <div class="col-md-4 text-warning mt-5">
-        <p><img class="img-fluid" src="Pic/Follow the flow.jpg">A reszponzív grid egy olyan design rendszer, amely a reszponzív weboldal tervezésben segít.
-    
-            A weboldal grafikai tervezése során, ha a reszponzív grid-hez igazítjuk az egyes elemeket, akkor ez lehetővé teszi, hogy a weboldal hibátlanul és rugalmasan igazodjon a látogató készülékének (mobil, tablet vagy asztali gép) képernyő méretéhez.A reszponzív grid a következő elemekből áll:
-        
-            Oszlopok (columns)
-            Oszlopok közötti térköz (gutters)
-            Margók (margins)
-            1. Oszlopok
-            
-            Az oszlopok a weboldal tartalmi részét osztják fel egyforma szélességű részekre. Full HD felbontásra tervezett weboldalak esetén 12 oszlopra, tablet és mobil esetén 4-6 oszlopra szoktuk felosztani a weboldal által elfoglalt területet.
-            
-            A oszlopok reszponzív viselkedése kisebb képernyőméreten könnyen leprogramozható, így ha a tervezés során az egyes tartalmi elemeket az oszlopok széléhez igazítjuk, a weboldal tableten és mobilon is hibátlanul fog megjelenni.
-            
-            Reszponzív grid felosztás
-            
-            2. Oszlopok közötti térköz (gutter)
-            
-            A gutter az oszlopok közötti térközt jelenti. Ez segít távolságot tartani az egyes tartalmi részek között.</p>
-    </div>
-    
-    
-    </div>
-    
-    
-    
-                    </div>
-                 <a href="cloud.html" target="_blank_">A felhőszolgáltatásról</a>
 </body>
 </html>
